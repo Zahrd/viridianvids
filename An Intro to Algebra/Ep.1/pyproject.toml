@@ -1,0 +1,10 @@
+[project]
+name = "ep-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "manim>=0.18.1",
+    "manim-voiceover[gtts]>=0.3.7",
+]

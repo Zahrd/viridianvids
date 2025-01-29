@@ -1,0 +1,50 @@
+Everyone always says:
+What is Algebra? How do I use it? 
+but no one asks:
+Why is Algebra? What does it really mean?
+
+Maybe you've seen some Algebra before and wondered... why?
+Why are there letters? What are these symbols?
+Or even if you haven't, that's completely okay.
+This series of videos will focus on the intuitions behind Algebra, and why everything is the way it is.
+
+Perhaps we can start from the actual name.
+Algebra actually comes from Arabic, and it means "the reunion of broken parts."
+It comes up when we want to find the unknown. 
+
+But I think I'll just try to show you an example:
+Imagine you go to use the bathroom, but when you come back, you see your friend with two pencils in their hand. 
+You look back at your pile of pencils and you only see one left. 
+You try to think, but forget: how many pencils did you originally have?
+
+This sounds like a simple problem. But instead of trying to do it in our heads, let's use Algebra.
+Let's use a picture of the number of pencils we had like [this].
+We can think of this as some number that we currently don't know: It could be 1 pencil, 4 pencils, or 1000!
+Anyways, we know that our friend took 2 of them. 
+So that means that our number of pencils got [subtracted by 2].
+And lastly, we know that we saw 1 pencil when we got back from the bathroom.
+That's why we can say that this is equal to this.
+
+So we can write our equation like [this].
+Overall, the number of pencils we had was subtracted by two, represented by this minus two, and now this is equal to 1 pencil remaining.
+Think for a moment and try to understand how we converted our word problem into Algebra. Really, try and pause the video to contemplate.
+
+Now, I know this doesn't seem like a lot, and it really isn't.
+But the beauty with Algebra is that we can use it to solve problems like this:
+
+Really take a look at it, and pause the video if you want to try it out yourself.
+If you try to guess, finding the answer might take a long time!
+Yet, we can methodically and easily solve it using algebra.
+Think of it as a sneak peek for what's to come.
+
+Now, back to our equation, there's one last thing I want to quickly address:
+In our equation, we used a picture of a pencil to show how many pencils we had in the first place.
+But a little secret I'll tell you right now is that mathematicians are lazy. 
+We wouldn't want to draw pictures every single time we did math, so let's use a letter instead like this.
+I think p makes the most sense, because p can stand for pencils - the amount of pencils we had.
+
+The last thing I want to touch on is the significance of [this] equals sign.
+Algebra is all about trying to put back together broken parts, which can be hard - I mean, think about trying to put back together a broken window!
+That's why we're going to be using [this] as much as we can.
+
+Later, we'll delve into how exactly we can do that, but I hope this served as a little intro into the wonderful world of Algebra.
