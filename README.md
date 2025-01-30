@@ -6,5 +6,7 @@ The videos are run on Manim's community version, and use Manim voiceover and LaT
 You can download them here:
 
 [https://docs.manim.community/en/stable/installation/uv.html](Manim)
-[https://voiceover.manim.community/en/latest/installation.html](Manim Voiceover)
+
+[https://voiceover.manim.community/en/latest/installation.html](Voiceover)
+
 [https://miktex.org/download](Latex)
