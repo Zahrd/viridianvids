@@ -23,6 +23,7 @@ class Algebra(VoiceoverScene):
         skips = dict({
             "Intro": 0,
             "Preface": 0,
+            "Logo": 0,
             "Definition": 0,
             "Motivation": 0,
             "Transcription": 0,
@@ -72,6 +73,35 @@ class Algebra(VoiceoverScene):
         exGroup.add(questionMark)
         self.play(*[Unwrite(i) for i in exGroup])
         self.wait(2)
+        
+        
+        
+        Section("Logo")
+        
+        logoLines = Group()
+        topLine = FunctionGraph(
+            lambda t: 1/(0.5 - t),
+            x_range=[-3, 0],
+            color="#1e9167"
+        )
+        lastLine = FunctionGraph( 
+            lambda t: 4.5/(1 + math.pow(math.e, -4*t/3 + 0.4)) - 2.7, #Logistic
+            color="#1e9167"
+        )
+        
+        vert1 = FunctionGraph(lambda t: 4*t + 3, x_range=[-1.30683, -0.5], color="#1e9167").reverse_points()
+        vert2 = FunctionGraph(lambda t: 4*t + 2, x_range=[-1.007499, 0], color="#1e9167").reverse_points()
+        iridian = Text("iridian", slant=ITALIC).shift([1.3,-1,0])
+        logoLines.add(topLine, lastLine, vert1, vert2, iridian)
+        
+        self.play(Write(topLine), run_time=1.5)
+        self.play(Write(vert1), Write(vert2), run_time=2)
+        self.play(Write(lastLine), run_time=2)
+        self.play(Write(iridian), run_time=2)
+        self.wait(2.5)
+        self.play(*[Unwrite(i) for i in logoLines], run_time=2)
+        self.wait(1)
+
         
         
         Section("Definition")
